@@ -25,3 +25,13 @@ git branch -d feature1
          /-----0--0
         /        /
 0------0----0---/
+
+==================================================
+Connect local git to github:
+git remote add origin https://github.com/kevinwong327/intro-to-git.git
+
+Check origin setup:
+git remote -v
+
+upload to github:
+git push -u origin master
