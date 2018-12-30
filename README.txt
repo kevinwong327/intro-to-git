@@ -3,7 +3,7 @@
 git commit -m "Add all html file"
 touch .gitignore , then add file to be ignored by git
 git branch to check which branch we are on
-git checkout -b master to switch to branch master
+git checkout -b feature1 to switch to new branch feature1
 Merge branch: 
 git merge master OR
 git checkout master, then git merge feature1
@@ -20,6 +20,7 @@ git branches
 - Changing branches
 - Merging a branch
 - Removing a branch
+git branch -d feature1
 
          /-----0--0
         /        /
