@@ -86,3 +86,10 @@ reword f7fde4a Change the commit message but push the same commit.
 
 - In each resulting commit file, type the new commit message, save the file, and close it.
 - Force-push the amended commits. "git push --force"
+
+# Save from origin to a new repo:
+Create a new repo at github.
+Clone the repo from fedorahosted to your local machine.
+git remote rename origin upstream
+git remote add origin URL_TO_GITHUB_REPO
+git push origin master
